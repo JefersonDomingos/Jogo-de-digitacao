@@ -1,0 +1,49 @@
+.frase{
+    font-size:20px;
+    font-weight: 400;
+    color: green;
+    margin-top: 0;
+}
+
+.campo-digitacao{
+    font-size: 20px;
+    height: 120px;
+}
+
+.campo-desabilitado{
+    background-color: #cecece;
+}
+
+.icones{
+    vertical-align: middle;
+}
+
+.borda-verde {
+    border: 3px solid green;
+}
+
+.borda-vermelha {
+    border: 3px solid red;
+} 
+
+.tela_usuario{
+    text-align: center;
+}
+
+#nome_usuario{
+    width:200px;
+    height: 20px;
+    padding:2px;
+    border:1px solid #000000;
+    text-align: center;
+    border-radius:3px;
+}
+
+#texto_usuario{
+    margin-bottom: 0;
+}
+
+#digite_frase{
+    margin-bottom: 0;
+}
+

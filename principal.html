@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/libs/materialize.min.css">
+    <link rel="stylesheet" href="css/libs/google-fonts.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/jquery.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/placar.js" defer></script>
+    <title>Digitador rápido</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="center">Digitador rápido</h1>
+        <div class="tela_usuario center">
+            <p id="texto_usuario">Nome do Jogador</p>
+            <input type="text" id="nome_usuario">
+        
+        <p class="center" id="digite_frase">Digite a frase abaixo:</p>
+        <p class="frase center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <ul class="informacoes center">
+            <li>
+                <i class="small material-icons icones">description</i>
+                <span id="tamanho-frase">30</span> palavras
+            </li>
+            <li>
+                <i class=" small material-icons icones">query_builder</i>
+                <span id="tempo-digitacao">10</span> segundos
+            </li>
+        </ul>
+
+        <textarea class="campo-digitacao" rows="8" cols="40"></textarea>
+       <!--<a id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red">
+           <i class="material-icons">restore</i>
+        </a>-->
+        <button id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red">
+            <i class="material-icons">restore</i>
+        </button>
+        
+        <ul class="contadores center">
+            <li><span id="contador-caracteres">0</span> caracteres digitados</li>
+            <li><span id="contador-palavras">0</span> palavras formadas</li>
+        </ul>
+        <section class="placar">
+            <h3 class="center">Placar</h3>
+            <table class="centered bordered">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>N° palavras</th>
+                        <th>Remover</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                  <!--    <tr>
+                            <td>Jeferson</td>
+                            <td>10</td>
+                            <td>
+                                <a href="#" class="botao-remover">
+                                    <i class="small material-icons">delete</i>
+                                </a>
+                            </td>
+                        </tr>-->  
+                    </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
