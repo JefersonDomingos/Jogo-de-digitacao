@@ -10,7 +10,7 @@ Este é um jogo que tem como desafio a velocidade e a precisão do usuário para
 
 ## Imagens
 
-![/IMG 1 PJ.png"](https://github.com/JefersonDomingos/Jogo-de-digitacao/blob/db61df588ae349eda7f5c7bd9306d2f93fc27adf/img/IMG%202%20PJ.png)
+![/IMG 1 PJ.png"](https://github.com/JefersonDomingos/Jogo-de-digitacao/blob/f1c20e34612f3a5db57ac744b31817c56108fca2/img/IMG%202%20PJ.png)
 ![/IMG 2 PJ.png"](https://github.com/JefersonDomingos/Jogo-de-digitacao/blob/db61df588ae349eda7f5c7bd9306d2f93fc27adf/img/IMG%201%20PJ.png)
 
 
